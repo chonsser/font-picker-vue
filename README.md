@@ -61,6 +61,7 @@ The following **props** can be passed to the `FontPicker` component:
   * **`families`**: If only specific fonts shall appear in the list, specify their names in an array (default: all font families)
   * **`categories`**: Array of font categories – possible values: `'sans-serif', 'serif', 'display', handwriting', 'monospace'` (default: all categories)
   * **`variants`**: Array of variants which the fonts must include and which will be downloaded; the first variant in the array will become the default variant (and will be used in the font picker and the `.apply-font` class); e.g. `['regular', 'italic', '700', '700italic']` (default: `['regular']`)
+  * **`filter`**: Function which must evaluate to `true` for a font to be included in the list. Default: `font => true`. Example: If `font => font.family.toLowerCase().startsWith("m")`, only fonts whose names begin with "M" will be in the list
   * **`limit`**: Maximum number of fonts to be displayed in the list (the least popular fonts will be omitted; default: `100`)
   * **`sort`**: Sorting attribute for the font list – possible values: `'alphabetical'` (default), `'popularity'`
 * **`onChange`**: Function which is executed whenever the user changes the active font and its stylesheet finishes downloading
