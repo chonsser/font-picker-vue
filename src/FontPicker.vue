@@ -43,10 +43,12 @@
      *   downloaded; the first variant in the array will become the default variant (and will be used
      *   in the font picker and the .apply-font class)
      *   Example: ['regular', 'italic', '700', '700italic'] (default: ['regular'])
-     *   @prop {number} limit - Maximum number of fonts to be displayed in the list (the least popular
+		 *   @prop {function} filter – Function which must evaluate to `true` for a font to be included in the list.
+		 *   (default: `font => true`. Example: If `font => font.family.toLowerCase().startsWith("m")`, only fonts whose names begin with "M" will be in the list)
+		 *   @prop {number} limit - Maximum number of fonts to be displayed in the list (the least popular
      *   fonts will be omitted; default: 100)
-     *   @prop {string} sort - Sorting attribute for the font list
-     *   Possible values: 'alphabetical' (default), 'popularity'
+		 *   @prop {string} sort - Sorting attribute for the font list
+		 *   Possible values: 'alphabetical' (default), 'popularity'
      * @prop {function} onChange - Function which is executed whenever the user changes the active font
      * and its stylesheet finishes downloading
      */
