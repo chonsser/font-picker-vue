@@ -30,7 +30,7 @@
     "start:rollup": "rollup --config --sourcemap --watch",
     "start:storybook": "start-storybook --port 3001",
     "build": "rollup --config",
-    "lint": "eslint .",
+    "lint": "node node_modules/eslint/bin/eslint.js .",
     "precommit": "npm run lint",
     "prepush": "npm run lint"
   },

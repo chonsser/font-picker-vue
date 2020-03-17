@@ -2,6 +2,8 @@
 
 **A simple, customizable font picker allowing users to preview, select, and use Google Fonts on your website.**
 
+**Credits to [@sameulmeuli](https://github.com/samuelmeuli) for creating the [font-picker](https://github.com/samuelmeuli/font-picker)**, original Vue fork created by [@rodrigobendia](https://github.com/rodrigobendia)
+
 * Automatic font download and generation of the required CSS styles
 * Efficient font previews (previews are loaded dynamically and full fonts are only downloaded on selection)
 
