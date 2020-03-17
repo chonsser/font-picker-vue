@@ -1,6 +1,6 @@
 {
   "name": "@wtf.city/font-picker-vue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vue component-based font selector component for Google Fonts",
   "keywords": [
     "fonts",
