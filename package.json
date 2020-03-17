@@ -1,7 +1,7 @@
 {
 	"name": "font-picker-vue",
-	"version": "1.0.3",
-	"description": "Font selector component for Google Fonts",
+	"version": "1.0.0",
+	"description": "Vue component-based font selector component for Google Fonts",
 	"keywords": [
 		"fonts",
 		"google fonts",
@@ -14,9 +14,17 @@
 		"vue-component"
 	],
 	"main": "lib/FontPicker.js",
-	"author": "Rodrigo Bendia <rodrigobendia@gmail.com>",
-	"repository": "github:rodrigobendia/font-picker-vue",
-	"homepage": "https://samuelmeuli.github.io/font-picker",
+	"author": {
+		"name": "Samuel Meuli",
+		"email": "me@samuelmeuli.com",
+		"url": "https://samuelmeuli.com"
+	},
+	"contributors": [
+		"Rodrigo Bendia <rodrigobendia@gmail.com>",
+		"Dominik Szymański <dominik@wtf.city> (https://wtf.city/)"
+	],
+	"repository": "github:chonsser/font-picker-vue",
+	"homepage": "https://github.com/chonsser/font-picker-vue",
 	"license": "MIT",
 	"scripts": {
 		"start": "npm-run-all build --parallel start:*",
