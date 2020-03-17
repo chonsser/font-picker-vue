@@ -23,7 +23,7 @@ _If you use React, see [**Font Picker for React**](https://github.com/samuelmeul
 Install the package using **NPM**:
 
 ```sh
-npm install font-picker-vue
+npm install @wtf.city/font-picker-vue
 ```
 
 
